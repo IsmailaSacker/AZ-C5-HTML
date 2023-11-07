@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Lists and Tables</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <style>
+      .body1 {
+        align-items: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: auto;
+        align-self: center;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body class="body1">
+    <table>
+      <caption>
+        TIME TABLE
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="5" style="text-align: center">Hours</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Social</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="5" style="text-align: center">Lunch</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td rowspan="2" style="text-align: center">Project</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Social</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Project Topics</h3>
+    <ul>
+      <li>Web site development</li>
+      <li>Coding challenge</li>
+      <li>Robotic</li>
+      <li>Preparation for an STS Exams</li>
+    </ul>
+
+    <h3>History Topics</h3>
+    <ol type="a">
+      <li>The souverin state</li>
+      <li>The war between ukraine and russia</li>
+      <li>Revolution of NASAR</li>
+    </ol>
+  </body>
+</html>
